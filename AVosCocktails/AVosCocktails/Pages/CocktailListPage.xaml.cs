@@ -1,6 +1,7 @@
 ﻿using CocktailDB;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,16 +19,16 @@ namespace AVosCocktails.Pages
         public CocktailListPage()
         {
             InitializeComponent();
-            test();
         }
 
-        public void test()
+        protected virtual void OnAppearing ()
         {
-            foreach (var i in CocktailAPI.Search("Vodka"))
+            base.OnAppearing();
+            foreach (var i in CocktailAPI.SearchByLetter('a'))
             {
-                Console.Write(i.idDrink + " ;");
-                Console.WriteLine(i.strDrink);
+                Debug.WriteLine(i.strDrink + " ;");
             }
         }
+
     }
 }

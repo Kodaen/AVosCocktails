@@ -8,14 +8,17 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>-->
-        <ListView>
-            <ListView.Header>
-                
-            </ListView.Header>
+
+        <!--<ListView ItemsSource="{Binding Drink}">
             <ListView.ItemTemplate>
-                <Label Text="lala"></Label>
+                <DataTemplate>
+                    <ImageCell Text="{Binding idDrink}"
+                               Detail="{Binding strDrink}">
+                        
+                    </ImageCell>
+                </DataTemplate>
             </ListView.ItemTemplate>
 
-        </ListView>
+        </ListView>-->
     </ContentPage.Content>
 </ContentPage>
