@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:pages="clr-namespace:AVosCocktails.Pages"
+       x:Class="AVosCocktails.MainPage">
+    <TabBar>
+        
+        <ShellContent Icon="HomeLogo.png">
+            <pages:HomePage>
+            </pages:HomePage>
+        </ShellContent>
+        
+        <ShellContent Icon="CocktailListLogo.png">
+            <pages:CocktailListPage>
+            </pages:CocktailListPage>
+        </ShellContent>
+        
+        <ShellContent Icon="AddLogo.png">
+            <pages:AddPage>
+            </pages:AddPage>
+        </ShellContent>
+        
+        <ShellContent Icon="MysteryLogo.png">
+            <pages:MysteryPage>
+            </pages:MysteryPage>
+        </ShellContent>
+        
+    </TabBar>
+
+    
+</Shell>
