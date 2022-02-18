@@ -1,4 +1,5 @@
-﻿using CocktailDB;
+﻿using AVosCocktails.ViewModel;
+using CocktailDB;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -19,16 +20,17 @@ namespace AVosCocktails.Pages
         public CocktailListPage()
         {
             InitializeComponent();
+            BindingContext = new ListViewModel();
         }
 
-        protected virtual void OnAppearing ()
-        {
-            base.OnAppearing();
-            foreach (var i in CocktailAPI.SearchByLetter('a'))
-            {
-                Debug.WriteLine(i.strDrink + " ;");
-            }
-        }
+        //protected virtual void OnAppearing ()
+        //{
+        //    base.OnAppearing();
+        //    foreach (var i in CocktailAPI.SearchByLetter('a'))
+        //    {
+        //        Debug.WriteLine(i.strDrink + " ;");
+        //    }
+        //}
 
     }
 }

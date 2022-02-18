@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LI4Lgsy9GLtI6Ywr//KmC1LLB+l0F8XiTCcl3VMBIgrM+dDFwMtJLpUyfbRKg5VxKIWntFD698tWvgVLxGwjKA==",
+  "dgSpecHash": "SyBTsoO2uVLqsVS5H33Qeh3f1AagU3LIFpivuuGrMyR0O7Reef8a6S4CsIr3Ep6t6ppdGiRorVYyfmCCc9RLew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails.iOS\\AVosCocktails.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails.iOS\\AVosCocktails.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tristan\\.nuget\\packages\\cocktaildb\\1.0.0\\cocktaildb.1.0.0.nupkg.sha512",
     "C:\\Users\\Tristan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

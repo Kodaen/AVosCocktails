@@ -604,11 +604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj",
+      "projectUniqueName": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj",
       "projectName": "AVosCocktails",
-      "projectPath": "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj",
+      "projectPath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj",
       "packagesPath": "C:\\Users\\Tristan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails\\obj\\",
+      "outputPath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

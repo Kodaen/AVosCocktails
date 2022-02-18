@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Q/jXvbZTIFu3wagg/1pJOkrxGDBreYsV1dufFNs1hpsRF98ZQjI0fusRgmWefWj+OSzDwkZoCBwYNSQeZ25eQ==",
+  "dgSpecHash": "hYUeMOM/2ZRFvtgIKuQYpvLe7705y+RoYewRxjWDOEvF5OSw08zkpnXbu1Wf8FcW5u1IpqRRV06S8PcxsA29Hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj",
+  "projectFilePath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tristan\\.nuget\\packages\\cocktaildb\\1.0.0\\cocktaildb.1.0.0.nupkg.sha512",
     "C:\\Users\\Tristan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

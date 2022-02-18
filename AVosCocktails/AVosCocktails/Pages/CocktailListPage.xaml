@@ -3,22 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AVosCocktails.Pages.CocktailListPage">
     <ContentPage.Content>
-        <!--<StackLayout>
-            <Label Text="Vous êtes sur la page de la liste des cocktails"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>-->
-
-        <!--<ListView ItemsSource="{Binding Drink}">
+        <ListView
+            CachingStrategy="RecycleElement"
+            ItemsSource="{Binding Items}"
+            RowHeight="70">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ImageCell Text="{Binding idDrink}"
-                               Detail="{Binding strDrink}">
-                        
-                    </ImageCell>
+                    <ViewCell>
+                        <StackLayout Margin="8">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="Subtitle"
+                                Text="{Binding name}"/>
+                            <Label
+                                FontAttributes="None"
+                                FontSize="Body"
+                                Text="{Binding description}" />
+                            <Label
+                                FontAttributes="None"
+                                FontSize="Body"
+                                Text="{Binding ingredients}" />
+                            <Line Stroke="Gray"/>
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-
-        </ListView>-->
+            
+        </ListView>
     </ContentPage.Content>
 </ContentPage>

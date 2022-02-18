@@ -2212,11 +2212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails.Android\\AVosCocktails.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails.Android\\AVosCocktails.Android.csproj",
       "projectName": "AVosCocktails.Android",
-      "projectPath": "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails.Android\\AVosCocktails.Android.csproj",
+      "projectPath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails.Android\\AVosCocktails.Android.csproj",
       "packagesPath": "C:\\Users\\Tristan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails.Android\\obj\\",
+      "outputPath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2237,8 +2237,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj": {
-              "projectPath": "C:\\Users\\Tristan\\Documents\\Cours\\IUT\\S4\\Dev Mobile\\AVosCocktails\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj"
+            "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj": {
+              "projectPath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails\\AVosCocktails.csproj"
             }
           }
         }
