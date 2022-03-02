@@ -59,7 +59,6 @@ C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstand
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.dll
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\ref\AVosCocktails.dll
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.pdb
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.csproj.AssemblyReference.cache
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
@@ -74,3 +73,4 @@ C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstand
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.dll
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\ref\AVosCocktails.dll
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.pdb
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.csproj.AssemblyReference.cache

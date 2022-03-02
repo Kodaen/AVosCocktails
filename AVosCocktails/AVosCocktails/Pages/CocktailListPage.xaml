@@ -3,32 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AVosCocktails.Pages.CocktailListPage">
     <ContentPage.Content>
-        <ListView
-            CachingStrategy="RecycleElement"
-            ItemsSource="{Binding Items}"
-            RowHeight="70">
-            <ListView.ItemTemplate>
+        <CollectionView
+            ItemsSource="{Binding ListeDeCocktail}"
+            >
+            <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
                         <StackLayout Margin="8">
                             <Label
                                 FontAttributes="Bold"
                                 FontSize="Subtitle"
-                                Text="{Binding name}"/>
-                            <Label
-                                FontAttributes="None"
-                                FontSize="Body"
-                                Text="{Binding description}" />
-                            <Label
-                                FontAttributes="None"
-                                FontSize="Body"
-                                Text="{Binding ingredients}" />
+                                Text="{Binding Name}"/>
+
                             <Line Stroke="Gray"/>
                         </StackLayout>
-                    </ViewCell>
                 </DataTemplate>
-            </ListView.ItemTemplate>
+            </CollectionView.ItemTemplate>
             
-        </ListView>
+        </CollectionView>
     </ContentPage.Content>
 </ContentPage>
