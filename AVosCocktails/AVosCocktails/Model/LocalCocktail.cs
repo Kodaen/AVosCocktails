@@ -12,7 +12,7 @@ namespace AVosCocktails.Model
             public int Id { get; set; }
             public string Name { get; set;}
             public string Instructions { get; set;}
-            public Dictionary<string, string> Ingredients { get; set;}
+            public Dictionary<string,string> Ingredients { get; set;}
             public string Image { get; set; }
 
 
