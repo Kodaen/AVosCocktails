@@ -83,7 +83,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logo.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AVosCocktails\AVosCocktails.csproj">
       <Project>{B3215406-3B7A-4B03-9128-FFA20656762B}</Project>

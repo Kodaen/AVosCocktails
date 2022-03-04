@@ -1,12 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AVosCocktails.Pages.HomePage">
+             x:Class="AVosCocktails.Pages.HomePage"
+             Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Vous êtes sur la page d'accueil"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+        <StackLayout BackgroundColor="#88111B">
+
+
+
+            <Image HeightRequest="200"  Source="logo.jpg"
+                   BackgroundColor="#2D2E2D"
+                    Margin="0"
+                   ></Image>
+                
+            
+            <Label Text="Binvenue"
+                   TextColor="White"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start"
+                   FontSize="60"
+                   BackgroundColor="#AC1522" 
+                   HorizontalTextAlignment="Center"
+                   Padding="84, 0, 84, 5"
+                   Margin="0, -5 , 0, 0"
+                   />
+
+            <Label Text="Découvrez, recherchez et créez les meilleurs cocktails qui existent !"
+                   TextColor="White"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="25"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,70, 0, 0"
+                   />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
