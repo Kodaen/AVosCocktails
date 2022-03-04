@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SyBTsoO2uVLqsVS5H33Qeh3f1AagU3LIFpivuuGrMyR0O7Reef8a6S4CsIr3Ep6t6ppdGiRorVYyfmCCc9RLew==",
+  "dgSpecHash": "8vkEltVYs30pRPo0A9bkCa4kmQJqiy60XOp+vBVwsS2ARME7xr76O2C2L9cfRnr5Yls9l5YLoZQuHw0HItY0vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails.iOS\\AVosCocktails.iOS.csproj",
+  "projectFilePath": "D:\\mobil\\AVosCocktails\\AVosCocktails\\AVosCocktails.iOS\\AVosCocktails.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tristan\\.nuget\\packages\\cocktaildb\\1.0.0\\cocktaildb.1.0.0.nupkg.sha512",
-    "C:\\Users\\Tristan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Tristan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\cocktaildb\\1.0.0\\cocktaildb.1.0.0.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
