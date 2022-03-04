@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AVosCocktails.Pages.HomePage"
-             Shell.NavBarIsVisible="False">
+             Shell.NavBarIsVisible="False"
+             >
     <ContentPage.Content>
 
         <StackLayout BackgroundColor="#88111B">
@@ -15,14 +16,14 @@
                    ></Image>
                 
             
-            <Label Text="Binvenue"
+            <Label Text="Bienvenue !"
                    TextColor="White"
                    VerticalOptions="Start" 
                    HorizontalOptions="Start"
-                   FontSize="60"
+                   FontSize="50"
                    BackgroundColor="#AC1522" 
                    HorizontalTextAlignment="Center"
-                   Padding="84, 0, 84, 5"
+                   Padding="78.5, 0, 78.5, 5"
                    Margin="0, -5 , 0, 0"
                    />
 
