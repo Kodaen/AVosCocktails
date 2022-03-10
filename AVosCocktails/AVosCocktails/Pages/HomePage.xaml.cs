@@ -15,6 +15,12 @@ namespace AVosCocktails.Pages
         public HomePage()
         {
             InitializeComponent();
+            
+        }
+
+        private void Label_SizeChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
