@@ -4,32 +4,27 @@
              x:Class="AVosCocktails.Pages.AddPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
+        
         <StackLayout Margin="20,35,20,20">
             <Entry x:Name="nameEntry"
                Placeholder="Enter name" />
             <Entry x:Name="instructionsEntry"
                Placeholder="Enter instructions" />
+
+            <Picker x:Name="picker" Title="--Nombre d'ingrédients--"/>
             <Entry x:Name="ingredientsEntry"
                Placeholder="Enter ingredients" />
+
             <Entry x:Name="imageEntry"
-               Placeholder="Enter image url" />
+               Placeholder="Enter image url"/>
+            <Button Text="Select Image" Clicked="SelectImage"/>
+            <Image x:Name="selectedImage"/>
+            
             <Entry x:Name="tagsEntry"
                Placeholder="Enter tags" />
-            <Button Text="Add to Database"
+            <Button Text="Add Coktail"
                 Clicked="OnButtonClicked" />
-            <!--<CollectionView x:Name="collectionView">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout>
-                            <Label Text="{Binding Name}"
-                               FontSize="Medium" />
-                            <Label Text="{Binding Age}"
-                               TextColor="Silver"
-                               FontSize="Small" />
-                        </StackLayout>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>-->
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

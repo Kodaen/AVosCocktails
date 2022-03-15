@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3tjJG3hyo6Pc5Nlbr2qVn7l8Yz1cVLluRwlcgwhmqM74ap9lWErDDSxnReconOljceWsIgI0rQ45DmBqb7ku1g==",
+  "dgSpecHash": "Cb4En/LzQW7zYOddsIqICRM/6xn+7Z8RQObhKELPv4OuRa+23OcXuDbjlq5CQz4rgVsY3r8Cjq8i7/aam8w3HQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails.iOS\\AVosCocktails.iOS.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\Tristan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Tristan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Tristan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Tristan\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

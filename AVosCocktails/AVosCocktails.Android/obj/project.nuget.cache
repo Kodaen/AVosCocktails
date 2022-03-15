@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wLIZRwfs94mxCBh7PWfndRbfd0ES4nSX5WTVSm7UytpcjuDx2AtPLSBx2jA3EIJRrZikAVu0KTag7QAWGR8HVw==",
+  "dgSpecHash": "zTYyuQUzz3buiL9rY7gI9XaQGwEps6tqoIY8xY4fRvJhoYQuHF4vh7PAsWqC7sS8daml3noBRX+J6NYeW/YLKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tristan\\Documents\\bordel\\AVosCocktails\\AVosCocktails.Android\\AVosCocktails.Android.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Tristan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Tristan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Tristan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Tristan\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",
