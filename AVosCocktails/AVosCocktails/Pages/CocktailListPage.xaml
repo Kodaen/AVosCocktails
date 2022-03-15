@@ -3,9 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AVosCocktails.Pages.CocktailListPage"
             >
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="test"></ToolbarItem>
-    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
         <CollectionView
             SelectionMode="Single"
