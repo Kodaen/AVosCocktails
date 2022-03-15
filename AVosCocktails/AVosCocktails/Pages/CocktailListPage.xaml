@@ -2,29 +2,41 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AVosCocktails.Pages.CocktailListPage"
-            >
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="test"></ToolbarItem>
-    </ContentPage.ToolbarItems>
+             Shell.NavBarIsVisible="False">
     <ContentPage.Content>
         <CollectionView
             SelectionMode="Single"
             SelectionChanged="CollectionView_SelectionChanged"            
              ItemsSource="{Binding ListeDeCocktail}"
+            BackgroundColor="#2D2E2D"
             >
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                        <StackLayout Margin="8">
-                            <Label
+                    <StackLayout Margin="8">
+                        <Label
                                 FontAttributes="Bold"
                                 FontSize="Subtitle"
-                                Text="{Binding Name}"/>
+                                Text="{Binding Name}"
+                                TextColor="White"
+                                WidthRequest="500"
+                                HorizontalTextAlignment="Center"
+                            />
 
-                            <Line Stroke="Gray"/>
-                        </StackLayout>
+                        <Image 
+                                Source="{Binding Image}"
+                                Aspect="AspectFill"
+                                HeightRequest="100"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand">
+
+                        </Image>
+
+                        <Line Stroke="Gray"/>
+
+                    </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
-            
+
         </CollectionView>
     </ContentPage.Content>
 </ContentPage>
