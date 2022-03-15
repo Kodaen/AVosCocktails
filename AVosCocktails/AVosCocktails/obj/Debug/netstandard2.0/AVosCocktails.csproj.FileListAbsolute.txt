@@ -93,3 +93,4 @@ D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Xaml
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.dll
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\ref\AVosCocktails.dll
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.pdb
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\DetailPage.xaml.g.cs

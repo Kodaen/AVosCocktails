@@ -5,7 +5,9 @@
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
         <CollectionView
-            ItemsSource="{Binding ListeDeCocktail}"
+            SelectionMode="Single"
+            SelectionChanged="CollectionView_SelectionChanged"            
+             ItemsSource="{Binding ListeDeCocktail}"
             >
             <CollectionView.ItemTemplate>
                 <DataTemplate>

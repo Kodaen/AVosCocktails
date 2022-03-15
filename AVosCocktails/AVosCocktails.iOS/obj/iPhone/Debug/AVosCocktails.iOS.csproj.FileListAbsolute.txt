@@ -323,3 +323,11 @@ D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails.iOS\obj\iPhone\Debug\AVosCock
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails.iOS\obj\iPhone\Debug\AVosCocktails.iOS.csproj.CopyComplete
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails.iOS\obj\iPhone\Debug\AVosCocktails.iOS.exe
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails.iOS\obj\iPhone\Debug\AVosCocktails.iOS.pdb
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.iOS\bin\iPhone\Debug\SQLite-net.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.iOS\bin\iPhone\Debug\System.Buffers.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.iOS\bin\iPhone\Debug\System.Memory.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll

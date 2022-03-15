@@ -1,4 +1,5 @@
-﻿using AVosCocktails.ViewModel;
+﻿using AVosCocktails.Model;
+using AVosCocktails.ViewModel;
 using CocktailDB;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,20 @@ namespace AVosCocktails.Pages
             BindingContext = new ListViewModel();
         }
 
+        async void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var cocktail = e.CurrentSelection.FirstOrDefault() as LocalCocktail;
+            if (cocktail == null)
+            {
+                return;
+            } 
+              
+
+            await Navigation.PushAsync(new DetailPage(cocktail));
+
+            ((CollectionView)sender).SelectedItem = null;
+     
+        }
         //protected virtual void OnAppearing ()
         //{
         //    base.OnAppearing();
