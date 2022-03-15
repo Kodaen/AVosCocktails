@@ -11,15 +11,17 @@
             <Entry x:Name="instructionsEntry"
                Placeholder="Enter instructions" />
 
-            <Picker x:Name="picker" Title="--Nombre d'ingrédients--"/>
+
+            <Picker x:Name="picker" Title="--select image mode--" VerticalOptions="Center" PropertyChanged="picker_PropertyChanged"/>
+            <Entry x:Name="imageEntry"
+               Placeholder="Enter image url"
+                   IsVisible="false"
+                   PropertyChanged="imageEntry_PropertyChanged"/>
+            <Button x:Name="imageEntryGalery" Text="Select Image" Clicked="SelectImage" IsVisible="true" />
+            <Image x:Name="selectedImage" HeightRequest="150"/>
+
             <Entry x:Name="ingredientsEntry"
                Placeholder="Enter ingredients" />
-
-            <Entry x:Name="imageEntry"
-               Placeholder="Enter image url"/>
-            <Button Text="Select Image" Clicked="SelectImage"/>
-            <Image x:Name="selectedImage"/>
-            
             <Entry x:Name="tagsEntry"
                Placeholder="Enter tags" />
             <Button Text="Add Coktail"

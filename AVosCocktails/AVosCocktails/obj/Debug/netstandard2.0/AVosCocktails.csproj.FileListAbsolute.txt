@@ -55,25 +55,6 @@ C:\Users\Tristan\Documents\Cours\IUT\S4\DevMobile\AVosCocktails\AVosCocktails\AV
 C:\Users\Tristan\Documents\Cours\IUT\S4\DevMobile\AVosCocktails\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.dll
 C:\Users\Tristan\Documents\Cours\IUT\S4\DevMobile\AVosCocktails\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\ref\AVosCocktails.dll
 C:\Users\Tristan\Documents\Cours\IUT\S4\DevMobile\AVosCocktails\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.pdb
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.deps.json
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.dll
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\ref\AVosCocktails.dll
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.pdb
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\AddPage.xaml.g.cs
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\CocktailListPage.xaml.g.cs
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\MysteryPage.xaml.g.cs
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.AssemblyInfoInputs.cache
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.AssemblyInfo.cs
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.csproj.CoreCompileInputs.cache
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.dll
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\ref\AVosCocktails.dll
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.pdb
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.csproj.AssemblyReference.cache
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.deps.json
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.dll
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\ref\AVosCocktails.dll
@@ -93,24 +74,23 @@ D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Xaml
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.dll
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\ref\AVosCocktails.dll
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.pdb
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.deps.json
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\ref\AVosCocktails.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.pdb
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.csproj.AssemblyReference.cache
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\AddPage.xaml.g.cs
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\CocktailListPage.xaml.g.cs
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\DetailPage.xaml.g.cs
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.deps.json
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.dll
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\ref\AVosCocktails.dll
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\bin\Debug\netstandard2.0\AVosCocktails.pdb
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.csproj.AssemblyReference.cache
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\AddPage.xaml.g.cs
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\CocktailListPage.xaml.g.cs
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\DetailPage.xaml.g.cs
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\MysteryPage.xaml.g.cs
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.AssemblyInfoInputs.cache
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.AssemblyInfo.cs
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.csproj.CoreCompileInputs.cache
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.dll
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\ref\AVosCocktails.dll
-C:\Users\antho\OneDrive\Bureau\cocktails le vrai\AVosCocktails-1\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.pdb
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\Pages\MysteryPage.xaml.g.cs
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.AssemblyInfoInputs.cache
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.AssemblyInfo.cs
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.csproj.CoreCompileInputs.cache
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\ref\AVosCocktails.dll
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.pdb
