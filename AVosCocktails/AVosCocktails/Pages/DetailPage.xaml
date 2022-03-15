@@ -1,11 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AVosCocktails.Pages.DetailPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label x:Name="c"  Text="{Binding Id}"/>
-            <Label Text="putain c'est de la merde"/>
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="AVosCocktails.Pages.DetailPage"
+             Shell.BackgroundColor="#88111B"
+             >
+    <StackLayout BackgroundColor="#AC1522">
+        <Label x:Name="c" 
+                    FontAttributes="Bold"
+                    FontSize="50"
+                    Text="{Binding Name}"
+                    TextColor="White"
+                    WidthRequest="500"
+                    HorizontalTextAlignment="Center"  
+                    BackgroundColor="#88111B" 
+                   Padding="78.5, 0, 78.5, 5"
+                />
+
+        <Image 
+                Aspect="AspectFit"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Source="{Binding Image}"
+                />
+
+        <Label
+                Text="TAGS"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="White"
+                WidthRequest="500"
+                HorizontalTextAlignment="Center"  
+                BackgroundColor="#88111B" 
+                Padding="78.5, 0, 78.5, 5"
+                />
+
+        <Label
+                BackgroundColor="White"
+                Text="{Binding Tags}"
+                TextColor="Black"
+                FontSize="15"
+                Padding="0,0,0, 10"
+                />
+
+
+        <Label
+                Text="INGREDIENTS"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="White"
+                WidthRequest="500"
+                HorizontalTextAlignment="Center"  
+                BackgroundColor="#88111B" 
+                Padding="78.5, 0, 78.5, 5"
+                />
+
+        <Label
+                Text="{Binding Ingredients}"
+                TextColor="White"
+                FontSize="15"
+                Padding="0,0,0, 10"
+                />
+
+
+        <Label
+                Text="INSTRUCTIONS"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="White"
+                WidthRequest="500"
+                HorizontalTextAlignment="Center"  
+                BackgroundColor="#88111B" 
+                Padding="78.5, 0, 78.5, 5"
+                />
+
+        <Label
+                Text="{Binding Instructions}"
+                TextColor="White"
+                FontSize="15"
+                HorizontalTextAlignment="Center"
+                Padding="0,0,0, 30"
+                />
+
+
+    </StackLayout>
+
 </ContentPage>
