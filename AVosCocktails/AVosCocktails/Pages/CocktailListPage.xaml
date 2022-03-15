@@ -8,6 +8,7 @@
             SelectionMode="Single"
             SelectionChanged="CollectionView_SelectionChanged"            
              ItemsSource="{Binding ListeDeCocktail}"
+            BackgroundColor="#2D2E2D"
             >
             <CollectionView.ItemTemplate>
                 <DataTemplate>
@@ -15,9 +16,23 @@
                             <Label
                                 FontAttributes="Bold"
                                 FontSize="Subtitle"
-                                Text="{Binding Name}"/>
+                                Text="{Binding Name}"
+                                TextColor="White"
+                                WidthRequest="500"
+                                HorizontalTextAlignment="Center"
+                            />
 
-                            <Line Stroke="Gray"/>
+                        <Image 
+                                Source="{Binding Image}"
+                                Aspect="AspectFill"
+                                HeightRequest="100"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand">
+
+                        </Image>
+
+                        <Line Stroke="Gray"/>
+                        
                         </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

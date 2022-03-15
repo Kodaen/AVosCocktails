@@ -19,5 +19,10 @@ namespace AVosCocktails.Pages
             InitializeComponent();
             BindingContext = Cocktail;
         }
+
+        private void c_SizeChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
