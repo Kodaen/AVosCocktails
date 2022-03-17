@@ -29,8 +29,7 @@ namespace AVosCocktails.Pages
 
         async void OnButtonClicked(object sender, EventArgs e)
         {
-            var imageURL = "";
-            
+           
             if (!string.IsNullOrWhiteSpace(nameEntry.Text)
                     && !string.IsNullOrWhiteSpace(instructionsEntry.Text)
                     && !string.IsNullOrWhiteSpace(ingredientsEntry.Text)
@@ -44,6 +43,10 @@ namespace AVosCocktails.Pages
                     Image = imageEntry.Text,
                     Tags = tagsEntry.Text
                 });
+            } else
+            {
+                await DisplayAlert("Couldn't add", "Fill all entries if you want to add a cocktail", "Ok");
+                return;
             }
             
         }
@@ -57,20 +60,22 @@ namespace AVosCocktails.Pages
                 await DisplayAlert("Not supported", "Your device does not support this functionnality", "Ok");
                 return;
             }
+
+         
             var mediaOptions = new PickMediaOptions(){PhotoSize = PhotoSize.Medium};
 
             var selectedImageFile = await CrossMedia.Current.PickPhotoAsync(mediaOptions);
-
-            if(selectedImage == null)
+            
+            if (selectedImage == null)
             {
                 await DisplayAlert("Error", "Could not get the image, please try again.", "Ok");
                 return;
             }
 
-            string test = selectedImageFile.Path;
+            string selectedImagePath = selectedImageFile.Path;
             //selectedImage.Source = ImageSource.FromStream(() => selectedImageFile.GetStream());
-            //selectedImage.Source = test;
-            imageEntry.Text = test;
+            //selectedImage.Source = selectedImagePath;
+            imageEntry.Text = selectedImagePath;
         }
 
         private void picker_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)

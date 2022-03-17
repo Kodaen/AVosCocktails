@@ -40,7 +40,7 @@ namespace AVosCocktails.ViewModel
         {
 
             //supression de la bd
-            await App.Database.DeleteAllCocktails();
+            //await App.Database.DeleteAllCocktails();
 
 
             Cocktail[] requestedCocktail = CocktailAPI.SearchByLetter('a').ToArray();
@@ -184,7 +184,7 @@ namespace AVosCocktails.ViewModel
                 MyCocktail.Ingredients = String.Join(",", IngredientsTemp);
                 Debug.WriteLine(i + " + " + MyCocktail.Name);
 
-                await App.Database.SaveCocktailAsync(MyCocktail);
+                //await App.Database.SaveCocktailAsync(MyCocktail);
                 
             }
 

@@ -2,27 +2,28 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AVosCocktails.Pages.AddPage"
-             Shell.NavBarIsVisible="False">
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#AC1522">
     <ContentPage.Content>
         
         <StackLayout Margin="20,35,20,20">
-            <Entry x:Name="nameEntry"
+            <Entry x:Name="nameEntry" TextColor="White" FontAttributes="Bold,Italic" FontSize="30"
                Placeholder="Enter name" />
-            <Entry x:Name="instructionsEntry"
+            <Entry x:Name="instructionsEntry" TextColor="White" FontAttributes="Bold,Italic"
                Placeholder="Enter instructions" />
 
 
             <Picker x:Name="picker" Title="--select image mode--" VerticalOptions="Center" PropertyChanged="picker_PropertyChanged"/>
-            <Entry x:Name="imageEntry"
+            <Entry x:Name="imageEntry" TextColor="White" FontAttributes="Bold,Italic"
                Placeholder="Enter image url"
                    IsVisible="false"
                    PropertyChanged="imageEntry_PropertyChanged"/>
             <Button x:Name="imageEntryGalery" Text="Select Image" Clicked="SelectImage" IsVisible="true" />
             <Image x:Name="selectedImage" HeightRequest="150"/>
 
-            <Entry x:Name="ingredientsEntry"
+            <Entry x:Name="ingredientsEntry" TextColor="White" FontAttributes="Bold,Italic"
                Placeholder="Enter ingredients" />
-            <Entry x:Name="tagsEntry"
+            <Entry x:Name="tagsEntry" TextColor="White" FontAttributes="Bold,Italic"
                Placeholder="Enter tags" />
             <Button Text="Add Coktail"
                 Clicked="OnButtonClicked" />
