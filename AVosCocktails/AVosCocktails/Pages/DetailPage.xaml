@@ -36,7 +36,7 @@
 
         <Label
                 BackgroundColor="White"
-                Text="{Binding Tags}"
+                Text="{Binding Tags[0]}"
                 TextColor="Black"
                 FontSize="15"
                 Padding="0,0,0, 10"
@@ -55,7 +55,7 @@
                 />
 
         <Label
-                Text="{Binding Ingredients}"
+                Text="{Binding Ingredients[0]}"
                 TextColor="White"
                 FontSize="15"
                 Padding="0,0,0, 10"

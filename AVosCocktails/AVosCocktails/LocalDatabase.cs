@@ -13,22 +13,23 @@ namespace AVosCocktails
         public Database(string dbPath)
         {
             _database = new SQLiteAsyncConnection(dbPath);
-            _database.CreateTableAsync<LocalCocktail>().Wait();
+            _database.CreateTableAsync<BDCocktail>().Wait();
         }
 
-        public Task<List<LocalCocktail>> GetCocktailAsync()
+        public Task<List<BDCocktail>> GetCocktailAsync()
         {
-            return _database.Table<LocalCocktail>().ToListAsync();
+            return _database.Table<BDCocktail>().ToListAsync();
         }
 
-        public Task<int> SaveCocktailAsync(LocalCocktail LCocktail)
+
+        public Task<int> SaveCocktailAsync(BDCocktail LCocktail)
         {
             return _database.InsertAsync(LCocktail);
         }
 
         public Task<int> DeleteAllCocktails()
         {
-            return _database.DeleteAllAsync<LocalCocktail>();
+            return _database.DeleteAllAsync<BDCocktail>();
         }
 
     }

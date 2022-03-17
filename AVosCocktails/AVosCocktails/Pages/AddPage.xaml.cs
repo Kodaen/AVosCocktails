@@ -36,7 +36,7 @@ namespace AVosCocktails.Pages
                     && !string.IsNullOrWhiteSpace(imageEntry.Text)
                     && !string.IsNullOrWhiteSpace(tagsEntry.Text))
             {
-                await App.Database.SaveCocktailAsync(new LocalCocktail() {
+                await App.Database.SaveCocktailAsync(new BDCocktail() {
                     Name = nameEntry.Text,
                     Instructions = instructionsEntry.Text,
                     Ingredients = ingredientsEntry.Text,

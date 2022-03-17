@@ -7,7 +7,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using static AVosCocktails.Model.LocalCocktail;
 
 namespace AVosCocktails.ViewModel
 {
@@ -40,12 +39,12 @@ namespace AVosCocktails.ViewModel
         {
 
             //supression de la bd
-            //await App.Database.DeleteAllCocktails();
+            await App.Database.DeleteAllCocktails();
 
 
             Cocktail[] requestedCocktail = CocktailAPI.SearchByLetter('a').ToArray();
 
-            LocalCocktail MyCocktail = new LocalCocktail();
+            BDCocktail MyCocktail = new BDCocktail();
 
             for (int i = 0; i < requestedCocktail.Length || i <= 20; i++)
             {
@@ -180,16 +179,33 @@ namespace AVosCocktails.ViewModel
                         IngredientsTemp[13] = IngredientsTemp[13] + " " + requestedCocktail[i].strMeasure13;
                     }
                 }
-                MyCocktail.Tags = requestedCocktail[i].strTags;
+                if (requestedCocktail[i].strTags != null)
+                {
+                    MyCocktail.Tags = requestedCocktail[i].strTags;
+                } else { MyCocktail.Tags = "None"; }
+                
+               
                 MyCocktail.Ingredients = String.Join(",", IngredientsTemp);
                 Debug.WriteLine(i + " + " + MyCocktail.Name);
 
-                //await App.Database.SaveCocktailAsync(MyCocktail);
+                await App.Database.SaveCocktailAsync(MyCocktail);
                 
             }
 
-             
-            ListeDeCocktail = new ObservableCollection<LocalCocktail>(App.Database.GetCocktailAsync().Result);
+            ObservableCollection<BDCocktail> ListeDeCocktailDBTemp = new ObservableCollection<BDCocktail>(App.Database.GetCocktailAsync().Result);
+            List<LocalCocktail> ListeDeCocktailLocalTemp = new List<LocalCocktail>();
+            foreach (BDCocktail CocktailDBTemp in ListeDeCocktailDBTemp) {
+                ListeDeCocktailLocalTemp.Add(new LocalCocktail()
+                {
+                    Id = CocktailDBTemp.Id,
+                    Name = CocktailDBTemp.Name,
+                    Instructions = CocktailDBTemp.Instructions,
+                    Ingredients = CocktailDBTemp.Ingredients.Split(),
+                    Image = CocktailDBTemp.Image,
+                    Tags = CocktailDBTemp.Tags.Split()
+                });
+            };
+            ListeDeCocktail = new ObservableCollection<LocalCocktail>(ListeDeCocktailLocalTemp);
 
         }
 

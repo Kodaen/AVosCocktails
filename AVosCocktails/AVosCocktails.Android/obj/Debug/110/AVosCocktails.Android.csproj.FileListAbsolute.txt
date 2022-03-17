@@ -1585,6 +1585,7 @@ D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails.Android\obj\Debug\110\stamp\_
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 D:\mobil\AVosCocktails\AVosCocktails\AVosCocktails.Android\obj\Debug\110\res\drawable\logo.png
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\obj\Debug\110\android\src\mono\androidx\appcompat\widget\MenuItemHoverListenerImplementor.java
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\bin\Debug\AVosCocktails.Android.dll
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\bin\Debug\AVosCocktails.Android.pdb
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\bin\Debug\com.companyname.avoscocktails.apk
@@ -2091,7 +2092,6 @@ C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\obj\Debug\
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\obj\Debug\110\android\src\mono\androidx\appcompat\widget\ActionMenuView_OnMenuItemClickListenerImplementor.java
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\obj\Debug\110\android\src\mono\androidx\appcompat\widget\ContentFrameLayout_OnAttachListenerImplementor.java
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\obj\Debug\110\android\src\mono\androidx\appcompat\widget\FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.java
-C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\obj\Debug\110\android\src\mono\androidx\appcompat\widget\MenuItemHoverListenerImplementor.java
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\obj\Debug\110\android\src\mono\androidx\appcompat\widget\PopupMenu_OnDismissListenerImplementor.java
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\obj\Debug\110\android\src\mono\androidx\appcompat\widget\PopupMenu_OnMenuItemClickListenerImplementor.java
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails.Android\obj\Debug\110\android\src\mono\androidx\appcompat\widget\SearchView_OnCloseListenerImplementor.java
