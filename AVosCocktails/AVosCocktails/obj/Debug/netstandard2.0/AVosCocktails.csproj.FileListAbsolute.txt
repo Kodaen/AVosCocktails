@@ -93,3 +93,4 @@ C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstand
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.dll
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\ref\AVosCocktails.dll
 C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.pdb
+C:\Users\Tristan\Documents\bordel\AVosCocktails\AVosCocktails\obj\Debug\netstandard2.0\AVosCocktails.csproj.AssemblyReference.cache
