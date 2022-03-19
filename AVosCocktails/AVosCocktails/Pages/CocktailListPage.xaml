@@ -3,6 +3,7 @@
              x:Class="AVosCocktails.Pages.CocktailListPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
+        
         <CollectionView
             SelectionMode="Single"
             SelectionChanged="CollectionView_SelectionChanged"            

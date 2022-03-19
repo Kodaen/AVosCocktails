@@ -18,10 +18,11 @@ namespace AVosCocktails.Pages
 
     public partial class CocktailListPage : ContentPage
     {
+        ListViewModel listViewModel = ListViewModel.Instance;
         public CocktailListPage()
         {
             InitializeComponent();
-            BindingContext = new ListViewModel();
+            BindingContext = listViewModel;
         }
 
         async void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)

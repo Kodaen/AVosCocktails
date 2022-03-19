@@ -1,4 +1,5 @@
 ﻿using AVosCocktails.Model;
+using AVosCocktails.ViewModel;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System;
@@ -16,6 +17,7 @@ namespace AVosCocktails.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddPage : ContentPage
     {
+        ListViewModel listViewModel = ListViewModel.Instance;
         public AddPage()
         {
             InitializeComponent();
@@ -28,20 +30,37 @@ namespace AVosCocktails.Pages
         }
 
         async void OnButtonClicked(object sender, EventArgs e)
-        {  
+        {
             if (!string.IsNullOrWhiteSpace(nameEntry.Text)
                     && !string.IsNullOrWhiteSpace(instructionsEntry.Text)
                     && !string.IsNullOrWhiteSpace(ingredientsEntry.Text)
                     && !string.IsNullOrWhiteSpace(imageEntry.Text)
                     && !string.IsNullOrWhiteSpace(tagsEntry.Text))
             {
-                await App.Database.SaveCocktailAsync(new BDCocktail() {
-                    Name = nameEntry.Text,
+                //On rajoute le nouveau cocktail dans la base de donnée
+                BDCocktail NouveauBDCocktail = new BDCocktail()
+                {
+                    Name = nameEntry.Text, 
                     Instructions = instructionsEntry.Text,
                     Ingredients = ingredientsEntry.Text,
                     Image = imageEntry.Text,
                     Tags = tagsEntry.Text
-                });
+                };
+                await App.Database.SaveCocktailAsync(NouveauBDCocktail);
+
+                //Comme les cocktails de ma base de données doivent être différents
+                //des cocktails que j'affiche, je le convertie ici
+                LocalCocktail NouveauLocalCocktail = new LocalCocktail()
+                {
+                    Id = NouveauBDCocktail.Id,
+                    Name = NouveauBDCocktail.Name,
+                    Instructions = NouveauBDCocktail.Instructions,
+                    Ingredients = NouveauBDCocktail.Ingredients.Split(','),
+                    Image = NouveauBDCocktail.Image,
+                    Tags = NouveauBDCocktail.Tags.Split(',')
+                };
+                //On l'ajoute à notre observable ListeDeCocktail pour que la liste (l'observable) se mette à jour
+                listViewModel.ListeDeCocktail.Insert(0, NouveauLocalCocktail);
                 
             } else
             {

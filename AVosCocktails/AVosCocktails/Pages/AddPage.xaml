@@ -13,7 +13,7 @@
                Placeholder="Enter instructions" />
 
 
-            <Picker x:Name="picker" Title="--select image mode--" VerticalOptions="Center" PropertyChanged="picker_PropertyChanged"/>
+            <Picker x:Name="picker" TextColor="White" Title="--select image mode--" VerticalOptions="Center" PropertyChanged="picker_PropertyChanged"/>
             <Entry x:Name="imageEntry" TextColor="White" FontAttributes="Bold,Italic"
                Placeholder="Enter image url"
                    IsVisible="false"

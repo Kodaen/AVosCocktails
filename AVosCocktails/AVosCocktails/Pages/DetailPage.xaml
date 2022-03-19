@@ -15,11 +15,12 @@
                     TextTransform="Uppercase"
         />
     </Shell.TitleView>
-    <StackLayout BackgroundColor="#AC1522" Padding="0,10,0,0">
+    <ScrollView BackgroundColor="#AC1522">
+        <StackLayout Spacing="0">
 
-        <Image 
-                Aspect="AspectFit"
-                HeightRequest="200"
+            <Image 
+                Aspect="AspectFill"
+                HeightRequest="300"
                 Source="{Binding Image}"
                 />
 
@@ -37,7 +38,7 @@
 
 
 
-        <FlexLayout x:Name="FlexTags" JustifyContent="SpaceAround" Wrap="Wrap"/>
+        <FlexLayout x:Name="FlexTags" JustifyContent="SpaceEvenly" Wrap="Wrap" Margin="0,7"/>
 
 
 
@@ -52,12 +53,12 @@
                 Padding="0, 0, 0, 5"
                 />
         
-        <Grid x:Name="GridIngredients" Margin="0,0,0,10">
+        <Grid x:Name="GridIngredients" Margin="0,7">
             <Grid.RowDefinitions>
                 <RowDefinition Height="20"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="200"/>
             </Grid.ColumnDefinitions>
         </Grid>
 
@@ -73,6 +74,7 @@
                 />
 
         <Label
+                Margin="0,7"
                 Text="{Binding Instructions}"
                 TextColor="White"
                 FontSize="15"
@@ -82,5 +84,5 @@
 
 
     </StackLayout>
-
+    </ScrollView>
 </ContentPage>
