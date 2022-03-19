@@ -8,11 +8,10 @@
             SelectionChanged="CollectionView_SelectionChanged"            
              ItemsSource="{Binding ListeDeCocktail}"
             BackgroundColor="#EAEAEA"
-          
             >
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout   Margin="1.5">
+                    <StackLayout Margin="1.5">
                         <!--<Label
                                 FontAttributes="Bold"
                                 FontSize="Subtitle"

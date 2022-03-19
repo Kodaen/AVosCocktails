@@ -28,8 +28,7 @@ namespace AVosCocktails.Pages
         }
 
         async void OnButtonClicked(object sender, EventArgs e)
-        {
-           
+        {  
             if (!string.IsNullOrWhiteSpace(nameEntry.Text)
                     && !string.IsNullOrWhiteSpace(instructionsEntry.Text)
                     && !string.IsNullOrWhiteSpace(ingredientsEntry.Text)
@@ -43,12 +42,12 @@ namespace AVosCocktails.Pages
                     Image = imageEntry.Text,
                     Tags = tagsEntry.Text
                 });
+                
             } else
             {
                 await DisplayAlert("Couldn't add", "Fill all entries if you want to add a cocktail", "Ok");
                 return;
-            }
-            
+            }   
         }
 
         async void SelectImage(object sender, EventArgs e)

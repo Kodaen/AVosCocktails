@@ -16,25 +16,49 @@
                    ></Image>
                 
             
-            <Label Text="Bienvenue !"
+            <Label Text="WELCOME !"
                    TextColor="White"
                    VerticalOptions="Start" 
-                   HorizontalOptions="Start"
+                   VerticalTextAlignment="Start"
+                   HorizontalOptions="FillAndExpand"
                    FontSize="50"
                    BackgroundColor="#AC1522" 
                    HorizontalTextAlignment="Center"
-                   Padding="78.5, 0, 78.5, 5"
-                   Margin="0, -5 , 0, 0"
+                   Margin="0, -6 , 0, 0"
                    />
 
-            <Label Text="Découvrez, recherchez et créez les meilleurs cocktails qui existent !"
-                   TextColor="White"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center"
-                   FontSize="25"
-                   HorizontalTextAlignment="Center"
-                   Margin="0,70, 0, 0"
-                   />
+
+            <FlexLayout JustifyContent="SpaceAround"
+                        VerticalOptions="FillAndExpand"
+                        AlignItems="Start"
+                        Direction="Column"
+                        >
+                <StackLayout >
+                    <Label TextColor="White" Text="Découvrez" FontSize="25" TextTransform="Uppercase" Margin="10,0,0,0" />
+                    <Label 
+                           
+                           TextColor="White" 
+                           Text="Des cocktails que vous n'avez jamais vu !" 
+                           FontSize="20"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label TextColor="White" Text="créez" FontSize="25" TextTransform="Uppercase" Margin="10,0,0,0"/>
+                    <Label 
+                           TextColor="White" 
+                           Text="Faites des cocktails uniques !" 
+                           FontSize="20"/>
+                </StackLayout>
+
+                <StackLayout >
+                    <Label TextColor="White" Text="recherchez" FontSize="25" TextTransform="Uppercase" Margin="10,0,0,0"/>
+                    <Label  
+                           TextColor="White" 
+                           Text="Renseignez vous sur des cocktails pour les faire vous mêmes !" 
+                           FontSize="20"/>
+                </StackLayout>
+            </FlexLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -3,27 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AVosCocktails.Pages.DetailPage"
              Shell.BackgroundColor="#88111B"
-             >
-    <StackLayout BackgroundColor="#AC1522">
-        <Label x:Name="c" 
-                    FontAttributes="Bold"
-                    FontSize="50"
+             Shell.TitleColor="White">
+    <Shell.TitleView>
+        <Label
+                    class="test"
+                    FontSize="30"
                     Text="{Binding Name}"
+                    VerticalTextAlignment="Center"
                     TextColor="White"
-                    WidthRequest="500"
-                    HorizontalTextAlignment="Center"  
-                    BackgroundColor="#88111B" 
-                   Padding="78.5, 0, 78.5, 5"
-                />
+                    FontAttributes="Bold,Italic"
+                    TextTransform="Uppercase"
+        />
+    </Shell.TitleView>
+    <StackLayout BackgroundColor="#AC1522" Padding="0,10,0,0">
 
         <Image 
                 Aspect="AspectFit"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="FillAndExpand"
+                HeightRequest="200"
                 Source="{Binding Image}"
                 />
 
         <Label
+                class="test"
                 Text="TAGS"
                 FontSize="30"
                 FontAttributes="Bold"
@@ -31,16 +32,13 @@
                 WidthRequest="500"
                 HorizontalTextAlignment="Center"  
                 BackgroundColor="#88111B" 
-                Padding="78.5, 0, 78.5, 5"
+                Padding="0, 0, 0, 5"
                 />
 
-        <Label
-                BackgroundColor="White"
-                Text="{Binding Tags[0]}"
-                TextColor="Black"
-                FontSize="15"
-                Padding="0,0,0, 10"
-                />
+
+
+        <FlexLayout x:Name="FlexTags" JustifyContent="SpaceAround" Wrap="Wrap"/>
+
 
 
         <Label
@@ -51,16 +49,17 @@
                 WidthRequest="500"
                 HorizontalTextAlignment="Center"  
                 BackgroundColor="#88111B" 
-                Padding="78.5, 0, 78.5, 5"
+                Padding="0, 0, 0, 5"
                 />
-
-        <Label
-                Text="{Binding Ingredients[0]}"
-                TextColor="White"
-                FontSize="15"
-                Padding="0,0,0, 10"
-                />
-
+        
+        <Grid x:Name="GridIngredients" Margin="0,0,0,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
 
         <Label
                 Text="INSTRUCTIONS"
@@ -70,7 +69,7 @@
                 WidthRequest="500"
                 HorizontalTextAlignment="Center"  
                 BackgroundColor="#88111B" 
-                Padding="78.5, 0, 78.5, 5"
+                Padding="0, 0, 0, 5"
                 />
 
         <Label

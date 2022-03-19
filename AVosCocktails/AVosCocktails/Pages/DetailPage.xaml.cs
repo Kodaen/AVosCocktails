@@ -2,6 +2,7 @@
 using CocktailDB;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,39 @@ namespace AVosCocktails.Pages
         {
             InitializeComponent();
             BindingContext = Cocktail;
+
+            for (int i = 0; i < Cocktail.Tags.Length; i++)
+                {
+                Frame frametemp = new Frame { 
+                    CornerRadius = 2,
+                    Padding = new Thickness(8, 0, 8, 0),
+                    Margin = new Thickness(20, 0, 20, 0) };
+                Label labeltemp = new Label { 
+                    Text = Cocktail.Tags[i],
+                    BackgroundColor = Color.White,
+                    TextColor = Color.Black,
+                    FontSize = 15,
+                    VerticalTextAlignment=TextAlignment.Center,
+                    FontAttributes= FontAttributes.Bold | FontAttributes.Italic,
+                    TextTransform = TextTransform.Uppercase };
+                frametemp.Content = labeltemp;
+                FlexTags.Children.Add(frametemp);
+                }
+           
+            for (int i = 0; i < Cocktail.Ingredients.Length && Cocktail.Ingredients[i]!= ""; i++)
+            {
+                Debug.WriteLine(Cocktail.Ingredients[i]);
+                Debug.WriteLine(i % 3 + " " + i / 3);
+                GridIngredients.Children.Add(new Label
+                {
+                    Text = Cocktail.Ingredients[i],
+                    TextColor = Color.White,
+                    FontSize = 11, //le texte est si petit à cause des problèmes de retour à la ligne
+                    HorizontalOptions = LayoutOptions.Center,
+                    VerticalOptions = LayoutOptions.Center
+                }, i%3, i/3);
+            }
+
         }
     }
 }

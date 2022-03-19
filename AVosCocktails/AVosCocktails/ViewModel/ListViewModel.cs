@@ -72,7 +72,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[0] = requestedCocktail[i].strIngredient1;
                     if (requestedCocktail[i].strMeasure1 != null)
                     {
-                        IngredientsTemp[0] = IngredientsTemp[0]  + " "+ requestedCocktail[i].strMeasure1;
+                        IngredientsTemp[0] = IngredientsTemp[0]  + " : " + requestedCocktail[i].strMeasure1;
                     }
                 }
                 if (requestedCocktail[i].strIngredient2 != null)
@@ -80,7 +80,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[1] = requestedCocktail[i].strIngredient2;
                     if (requestedCocktail[i].strMeasure2 != null)
                     {
-                        IngredientsTemp[1] = IngredientsTemp[1] + " " + requestedCocktail[i].strMeasure2;
+                        IngredientsTemp[1] = IngredientsTemp[1] + " : " + requestedCocktail[i].strMeasure2;
                     }
                 }
                 if (requestedCocktail[i].strIngredient3 != null)
@@ -88,7 +88,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[2] = requestedCocktail[i].strIngredient3;
                     if (requestedCocktail[i].strMeasure3 != null)
                     {
-                        IngredientsTemp[2] = IngredientsTemp[2] + " " + requestedCocktail[i].strMeasure3;
+                        IngredientsTemp[2] = IngredientsTemp[2] + " : " + requestedCocktail[i].strMeasure3;
                     }
                 }
                 if (requestedCocktail[i].strIngredient4 != null)
@@ -96,7 +96,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[3] = requestedCocktail[i].strIngredient4;
                     if (requestedCocktail[i].strMeasure4 != null)
                     {
-                        IngredientsTemp[3] = IngredientsTemp[3] + " " + requestedCocktail[i].strMeasure4;
+                        IngredientsTemp[3] = IngredientsTemp[3] + " : " + requestedCocktail[i].strMeasure4;
                     }
                 }
                 if (requestedCocktail[i].strIngredient5 != null)
@@ -104,7 +104,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[4] = requestedCocktail[i].strIngredient5;
                     if (requestedCocktail[i].strMeasure5 != null)
                     {
-                        IngredientsTemp[4] = IngredientsTemp[4] + " " + requestedCocktail[i].strMeasure5;
+                        IngredientsTemp[4] = IngredientsTemp[4] + " : " + requestedCocktail[i].strMeasure5;
                     }
                 }
                 if (requestedCocktail[i].strIngredient6 != null)
@@ -112,7 +112,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[5] = requestedCocktail[i].strIngredient6;
                     if (requestedCocktail[i].strMeasure6 != null)
                     {
-                        IngredientsTemp[5] = IngredientsTemp[5] + " " + requestedCocktail[i].strMeasure6;
+                        IngredientsTemp[5] = IngredientsTemp[5] + " : " + requestedCocktail[i].strMeasure6;
                     }
                 }
                 if (requestedCocktail[i].strIngredient7 != null)
@@ -120,7 +120,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[6] = requestedCocktail[i].strIngredient7;
                     if (requestedCocktail[i].strMeasure7 != null)
                     {
-                        IngredientsTemp[6] = IngredientsTemp[6] + " " + requestedCocktail[i].strMeasure7;
+                        IngredientsTemp[6] = IngredientsTemp[6] + " : " + requestedCocktail[i].strMeasure7;
                     }
                 }
                 if (requestedCocktail[i].strIngredient8 != null)
@@ -128,7 +128,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[7] = requestedCocktail[i].strIngredient8;
                     if (requestedCocktail[i].strMeasure8 != null)
                     {
-                        IngredientsTemp[7] = IngredientsTemp[7] + " " + requestedCocktail[i].strMeasure8;
+                        IngredientsTemp[7] = IngredientsTemp[7] + " : " + requestedCocktail[i].strMeasure8;
                     }
                 }
                 if (requestedCocktail[i].strIngredient9 != null)
@@ -136,7 +136,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[8] = requestedCocktail[i].strIngredient9;
                     if (requestedCocktail[i].strMeasure9 != null)
                     {
-                        IngredientsTemp[8] = IngredientsTemp[8] + " " + requestedCocktail[i].strMeasure9;
+                        IngredientsTemp[8] = IngredientsTemp[8] + " : " + requestedCocktail[i].strMeasure9;
                     }
                 }
                 if (requestedCocktail[i].strIngredient10 != null)
@@ -144,7 +144,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[9] = requestedCocktail[i].strIngredient10;
                     if (requestedCocktail[i].strMeasure10 != null)
                     {
-                        IngredientsTemp[9] = IngredientsTemp[9] + " " + requestedCocktail[i].strMeasure10;
+                        IngredientsTemp[9] = IngredientsTemp[9] + " : " + requestedCocktail[i].strMeasure10;
                     }
                 }
                 if (requestedCocktail[i].strIngredient11 != null)
@@ -152,7 +152,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[10] = requestedCocktail[i].strIngredient11;
                     if (requestedCocktail[i].strMeasure1 != null)
                     {
-                        IngredientsTemp[10] = IngredientsTemp[10] + " " + requestedCocktail[i].strMeasure11;
+                        IngredientsTemp[10] = IngredientsTemp[10] + " : " + requestedCocktail[i].strMeasure11;
                     }
                 }
                 if (requestedCocktail[i].strIngredient12 != null)
@@ -160,7 +160,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[11] = requestedCocktail[i].strIngredient12;
                     if (requestedCocktail[i].strMeasure12 != null)
                     {
-                        IngredientsTemp[11] = IngredientsTemp[11] + " " + requestedCocktail[i].strMeasure12;
+                        IngredientsTemp[11] = IngredientsTemp[11] + " : " + requestedCocktail[i].strMeasure12;
                     }
                 }
                 if (requestedCocktail[i].strIngredient13 != null)
@@ -168,7 +168,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[12] = requestedCocktail[i].strIngredient12;
                     if (requestedCocktail[i].strMeasure13 != null)
                     {
-                        IngredientsTemp[12] = IngredientsTemp[12] + " " + requestedCocktail[i].strMeasure12;
+                        IngredientsTemp[12] = IngredientsTemp[12] + " : " + requestedCocktail[i].strMeasure12;
                     }
                 }
                 if (requestedCocktail[i].strIngredient14 != null)
@@ -176,7 +176,7 @@ namespace AVosCocktails.ViewModel
                     IngredientsTemp[13] = requestedCocktail[i].strIngredient14;
                     if (requestedCocktail[i].strMeasure14 != null)
                     {
-                        IngredientsTemp[13] = IngredientsTemp[13] + " " + requestedCocktail[i].strMeasure13;
+                        IngredientsTemp[13] = IngredientsTemp[13] + " : " + requestedCocktail[i].strMeasure13;
                     }
                 }
                 if (requestedCocktail[i].strTags != null)
@@ -200,9 +200,9 @@ namespace AVosCocktails.ViewModel
                     Id = CocktailDBTemp.Id,
                     Name = CocktailDBTemp.Name,
                     Instructions = CocktailDBTemp.Instructions,
-                    Ingredients = CocktailDBTemp.Ingredients.Split(),
+                    Ingredients = CocktailDBTemp.Ingredients.Split(','),
                     Image = CocktailDBTemp.Image,
-                    Tags = CocktailDBTemp.Tags.Split()
+                    Tags = CocktailDBTemp.Tags.Split(',')
                 });
             };
             ListeDeCocktail = new ObservableCollection<LocalCocktail>(ListeDeCocktailLocalTemp);

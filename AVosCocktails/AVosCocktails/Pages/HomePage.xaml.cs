@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,12 +16,6 @@ namespace AVosCocktails.Pages
         public HomePage()
         {
             InitializeComponent();
-            
-        }
-
-        private void Label_SizeChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
