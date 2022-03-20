@@ -8,6 +8,7 @@ using Xamarin.Forms;
 
 namespace AVosCocktails.Model
 {
+    //Cocktails affichés dans la liste
     public class LocalCocktail
     {
         public int Id { get; set; }

@@ -8,6 +8,7 @@ using Xamarin.Forms;
 
 namespace AVosCocktails.Model
 {
+    //Cocktails stocké dans notre base de données
     public class BDCocktail
     {
         [PrimaryKey, AutoIncrement]

@@ -34,27 +34,26 @@
                         Direction="Column"
                         >
                 <StackLayout >
-                    <Label TextColor="White" Text="Découvrez" FontSize="25" TextTransform="Uppercase" Margin="10,0,0,0" />
+                    <Label TextColor="White" Text="DISCOVER" FontSize="25" TextTransform="Uppercase" Margin="10,0,0,0" />
                     <Label 
-                           
                            TextColor="White" 
-                           Text="Des cocktails que vous n'avez jamais vu !" 
+                           Text="Cocktails you've never seen before !" 
                            FontSize="20"/>
                 </StackLayout>
 
                 <StackLayout>
-                    <Label TextColor="White" Text="créez" FontSize="25" TextTransform="Uppercase" Margin="10,0,0,0"/>
+                    <Label TextColor="White" Text="CREATE" FontSize="25" TextTransform="Uppercase" Margin="10,0,0,0"/>
                     <Label 
                            TextColor="White" 
-                           Text="Faites des cocktails uniques !" 
+                           Text="Concot unique Cocktails !" 
                            FontSize="20"/>
                 </StackLayout>
 
                 <StackLayout >
-                    <Label TextColor="White" Text="recherchez" FontSize="25" TextTransform="Uppercase" Margin="10,0,0,0"/>
+                    <Label TextColor="White" Text="FIND" FontSize="25" TextTransform="Uppercase" Margin="10,0,0,0"/>
                     <Label  
                            TextColor="White" 
-                           Text="Renseignez vous sur des cocktails pour les faire vous mêmes !" 
+                           Text="Inform yourself on cocktails to make them !" 
                            FontSize="20"/>
                 </StackLayout>
             </FlexLayout>

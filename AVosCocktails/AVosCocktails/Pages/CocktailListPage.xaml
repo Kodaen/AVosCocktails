@@ -49,11 +49,27 @@
                                    HorizontalOptions="FillAndExpand"
                                    VerticalOptions="FillAndExpand"
                                    VerticalTextAlignment="Start"
-                                   Margin="15"
+                                   Margin="0,10,0,0"
                                    TextColor="White" 
                                    FontSize="30"
                                    FontAttributes="Bold,Italic"
                                    HorizontalTextAlignment="Center"/>
+                            <Frame Grid.Row="0" Grid.Column="0"
+                                   CornerRadius="2"
+                                   Padding="8,2,8,2"
+                                   Margin="0,40,0,0"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center">
+                                <Label
+                                    Text="{Binding Tags[0]}"
+                                    BackgroundColor="White"
+                                    TextColor="Black"
+                                    FontSize="15"
+                                    VerticalTextAlignment="Center"
+                                    FontAttributes="Bold,Italic"
+                                    TextTransform="Uppercase"
+                                    />
+                            </Frame>
 
                         </Grid> 
 

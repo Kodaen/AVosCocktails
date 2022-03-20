@@ -22,9 +22,10 @@ namespace AVosCocktails.Pages
         {
             InitializeComponent();
 
+            //On initialise notre picker
             var photoMode = new List<string>();
-            photoMode.Add("Depuis une URL");
-            photoMode.Add("Depuis la galerie");
+            photoMode.Add("From URL");
+            photoMode.Add("From Galery");
 
             picker.ItemsSource = photoMode;
         }
@@ -61,7 +62,15 @@ namespace AVosCocktails.Pages
                 };
                 //On l'ajoute à notre observable ListeDeCocktail pour que la liste (l'observable) se mette à jour
                 listViewModel.ListeDeCocktail.Insert(0, NouveauLocalCocktail);
-                
+
+                await DisplayAlert("Success !", "Your cocktail was added succesfully, you can now see it on the list", "Ok");
+
+                //On reset tous les champs de texte
+                nameEntry.Text = "";
+                instructionsEntry.Text = "";
+                ingredientsEntry.Text = "";
+                imageEntry.Text = "";
+                tagsEntry.Text = "";
             } else
             {
                 await DisplayAlert("Couldn't add", "Fill all entries if you want to add a cocktail", "Ok");
@@ -69,6 +78,7 @@ namespace AVosCocktails.Pages
             }   
         }
 
+        //Fonction permettant de choisir une image de la galerie
         async void SelectImage(object sender, EventArgs e)
         {
             await CrossMedia.Current.Initialize();
@@ -91,14 +101,13 @@ namespace AVosCocktails.Pages
             }
 
             string selectedImagePath = selectedImageFile.Path;
-            //selectedImage.Source = ImageSource.FromStream(() => selectedImageFile.GetStream());
-            //selectedImage.Source = selectedImagePath;
             imageEntry.Text = selectedImagePath;
         }
 
+        //Fonction permettant d'actualiser la vue en fonction de ce qu'on choisi dans le picker
         private void picker_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (picker.SelectedItem == "Depuis une URL") {
+            if (picker.SelectedItem == "From URL") {
                 imageEntry.IsVisible = true;
                 imageEntryGalery.IsVisible = false;
             } else
@@ -108,6 +117,7 @@ namespace AVosCocktails.Pages
             }
         }
 
+        //Permet d'actualiser l'image affiché lorsque l'on rentre une URL
         private void imageEntry_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             selectedImage.Source = imageEntry.Text;
